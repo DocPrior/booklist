@@ -1,1 +1,4 @@
-Some Books
+<% @books.each do |book| %>
+    <%= book.title %><br>
+    <%= book.author %>
+  <% end %>
